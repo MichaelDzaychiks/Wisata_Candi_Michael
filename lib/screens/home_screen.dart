@@ -1,4 +1,4 @@
-import 'package:material_ui/material_ui.dart';
+import 'package:flutter/material.dart';
 import 'package:wisata_candi/models/candi.dart';
 
 import 'package:wisata_candi/data/candi_data.dart';
