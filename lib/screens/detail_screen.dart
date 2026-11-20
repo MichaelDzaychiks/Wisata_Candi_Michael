@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:wisata_candi/models/candi.dart';
 
 class DetailScreen extends StatelessWidget {
@@ -35,7 +35,7 @@ class DetailScreen extends StatelessWidget {
                 ),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.deepPurple[100]?.withOpacity(0.8),
+                    color: Colors.deepPurple[100]?.withValues(alpha: 0.8),
                     shape: BoxShape.circle,
                   ),
                   child: IconButton(
